@@ -1,6 +1,7 @@
 # ollama_rag
 
 Local terminal tool for natural-language querying of notes via Ollama.
+Claude instruction files and agent constraint artifacts are intentionally retained in this repository to document the controlled AI-assisted development workflow.
 
 ## Requirements
 
@@ -12,7 +13,7 @@ Local terminal tool for natural-language querying of notes via Ollama.
 
 ```bash
 # Install dependencies (once)
-.venv/bin/pip install llama-index llama-index-llms-ollama llama-index-embeddings-ollama pyyaml
+.venv/bin/pip install -r requirements.txt
 
 # Build the index (first time, takes a few minutes)
 .venv/bin/python -m src index

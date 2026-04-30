@@ -1,6 +1,6 @@
 generation_model: "gemma4:e4b"
 embedding_model: "embeddinggemma:latest"
-notes_path: "./Notes"
+notes_path: "~/Notes"
 data_path: "./data"
 chunk_size: 512
 chunk_overlap: 50
