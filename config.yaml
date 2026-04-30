@@ -1,0 +1,7 @@
+generation_model: "gemma4:e4b"
+embedding_model: "embeddinggemma:latest"
+notes_path: "./Notes"
+data_path: "./data"
+chunk_size: 512
+chunk_overlap: 50
+top_k_results: 5
